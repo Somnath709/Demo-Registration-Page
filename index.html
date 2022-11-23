@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="font-family:Times New Roman;">
+    <header><h1>Registration</h1></header>
+    <form action="">
+    <h3 style="text-align:center;">Personal Details</h3>
+    <fieldset>
+        <legend style="text-align:center;"><b>*Name</b></legend>
+        <ul>
+           <li>
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" name="fname" id="fname" required>
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" name="lname" id="lname" required>
+           </li> 
+           <li>
+            <p><b>Mother's First Name</b> <input type="text" name="maname" id="maname" required></p>
+           </li>
+           <li>
+            <p><b>Father's First Name</b> <input type="text" name="faname" id="faname" required></p>
+           </li>
+        </ul>
+</fieldset>
+<fieldset>
+    <legend style="text-align:center;"><b>*Gender</b></legend>
+    <ul>
+        <li>
+            <label for="gender"></label><b>Male</b></label>
+            <input type="radio" name="gender" id="gender" required>
+            <label for="gender"><b>Female</b></label>
+            <input type="radio" name="gender" id="gender" required>
+        </li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend style="text-align:center;"><b>*Birth Details</b></legend>
+    <ul>
+        <li>
+            <p><b>Birth Date </b> <input type="date" name="bdate" id="bdate" required></p>
+        </li>
+        <li>
+            <p><b>Age </b> <input type="number" name="age" id="age" required></p>
+        </li>
+        <li>
+            <p><b>Birth Certificate </b><input type="file" name="bcertificate" id="bcertificate" required> *(You Can Upload Only In JPG, JPEG & PDF Format)</p>
+        </li>
+    </ul>
+    <fieldset>
+        <legend style="text-align:center;"><b>*Address</b></legend>
+        <fieldset>
+            <legend style="text-align:center;"><b>Permanent Address</b></legend>
+            <ul>
+                <li>
+                    <p><b>Country </b><input type="text" name="country" id="country" required></p>
+                </li>
+                <li>
+                    <p><b>State </b><input type="text" name="state" id="state" required></p>
+                </li>
+                <li>
+                    <p><b>District </b><input type="text" name="dis" id="dis" required></p>
+                </li>
+                <li>
+                    <p><b>Village </b><input type="text" name="vill" id="vill" required></p>
+                </li>
+                <li>
+                    <p><b>House No. </b><input type="number" name="hno." id="hno." required></p>
+                </li>
+                <li>
+                    <label for="area"><b>*Area</b></label>
+                    <label for="area">Urbun</label>
+                    <input type="radio" name="area" id="area" required>
+                    <label for="area"> Rural</label>
+                    <input type="radio" name="area" id="area" required><br>
+                </li>
+                <li>
+                    <label for="landamark"><b>*Landmark</b></label>
+                    <textarea name="landmark" id="landmark" cols="50" rows="3" required></textarea>
+                </li>
+                <li>
+                    <p><b>Pin Code </b><input type="number" name="pin" id="pin" required></p>
+                </li>
+                <li>
+                    <p><b>Residential Proof  </b><input type="file" name="residant" id="residant" required> *(You Can Upload Only In JPG, JPEG & PDF Format)</p>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend style="text-align:center;"><b>*Correspondence Address</b></legend>
+            <ul>
+                <li>
+                    <p><b>Country </b><input type="text" name="country" id="country" required></p>
+                </li>
+                <li>
+                    <p><b>State </b><input type="text" name="state" id="state" required></p>
+                </li>
+                <li>
+                    <p><b>District </b><input type="text" name="dis" id="dis" required></p>
+                </li>
+                <li>
+                    <p><b>Village </b><input type="text" name="vill" id="vill" required></p>
+                </li>
+                <li>
+                    <p><b>House No. </b><input type="number" name="hno." id="hno." required></p>
+                </li>
+                <li>
+                    <label for="area"><b>*Area</b></label>
+                    <label for="area">Urbun</label>
+                    <input type="radio" name="area" id="area" required>
+                    <label for="area"> Rural</label>
+                    <input type="radio" name="area" id="area" required><br>
+                </li>
+                <li>
+                    <label for="landamark"><b>*Landmark</b></label>
+                    <textarea name="landmark" id="landmark" cols="50" rows="3" required></textarea>
+                </li>
+                <li>
+                    <p><b>Pin Code </b><input type="number" name="pin" id="pin" required></p>
+                </li>
+                <li>
+                    <p><b>Residential Proof  </b><input type="file" name="residant" id="residant" required> *(You Can Upload Only In JPG, JPEG & PDF Format)</p>
+                </li>
+            </ul>
+        </fieldset>
+        <!--<p style="color:red;">*Ignore Correspondence Address If Your Permanent & Correspondence Address Are Same & Select YES</p>
+        <label for="affirmation"><b>YES</b></label>
+        <input type="radio" name="affirmation" id="affirmation" required>
+        <label for="affirmation"><b>NO</b></label>
+        <input type="radio" name="affirmation" id="affirmation" required>-->
+    </fieldset>
+</fieldset>
+<fieldset>
+    <legend style="text-align:center;"><b>*Contact Details</b></legend>
+    <ul>
+        <li>
+            <b>Contact Number</b>
+            <input type="number" name="phnumber" id="phnumber" required>
+        </li>
+        <br>
+        <li>
+            <b>E-mail</b>
+            <input type="email" name="email" id="email" required>
+        </li>
+    </ul>
+</fieldset>
+<fieldset>
+    <legend style="text-align:center;"><b>*Other Details</b></legend>
+    <ul>
+    <li>
+        <label for="nationality"><b>Nationality</b></label>
+        <input type="text" name="nationality" id="nationality" required>
+    </li>
+    <br>
+    <li>
+        <label for="relligion"><b>Relligion</b></label>
+        <select name="relligion" id="relligion_type" >
+        <option value=""><b>--Select--</b></option>
+        <option value="hindu">Hinduism</option>
+        <option value="islam">Islam</option>
+        <option value="christian">Christian</option>
+        <option value="uddhism">Buddhism</option>
+        <option value="jainism">Jainism</option>
+        <option value="sikhism">Sikhism</option>
+        <option value="norse">Norse</option>
+        <option value="judaism">Judaism</option>
+        <option value="baha'i">Baha'i</option>
+        <option value="zoroastrianism">Zoroastrianism</option>
+        <option value="agnositicim">Agnosticism</option>
+        <option value="atheism">Atheism</option>
+        <option value="not preferable">Not Preferable</option>
+        </select>
+    </li>
+    <br>
+    <li>
+        <label for="blood"><b>Blood Group</b></label>
+        <select name="blood" id="blood_type" required>
+            <option value="">--Select--</option>
+            <option value="o+">O<sup>+</sup></option>
+            <option value="A+">A<sup>+</sup></option>
+            <option value="B+">B<sup>+</sup></option>
+            <option value="AB+">AB<sup>+</sup></option>
+            <option value="o-">O<sup>-</sup></option>
+            <option value="A-">A<sup>-</sup></option>
+            <option value="B-">B<sup>-</sup></option>
+            <option value="AB-">AB<sup>-</sup></option>
+        </select>
+    </li>
+</fieldset>
+<p style="color:red;">Required Fields Are Followed By *</p>
+<center><input type="image" src="submit.jpg" alt="Submit" width="200"></center>
+</form>
+</body>
+</html>
